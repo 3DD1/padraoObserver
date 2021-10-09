@@ -15,7 +15,7 @@ public class Party extends Observable {
     }
     @Override
     public String toString(){
-        return "Party{" +
+        return "party{" +
                 " Name Party = "+ nameParty+
                 ", quantidy players = " + quantityPlayersInParty+
                 '}';

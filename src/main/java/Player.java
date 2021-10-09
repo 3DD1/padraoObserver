@@ -19,6 +19,6 @@ public class Player implements Observer {
 
     }
     public void update(Observable party, Object arg1){
-        this.friend = this.gamerTag + ", your friend join the party" + party.toString();
+        this.friend = this.gamerTag + ", your friend join the " + party.toString();
     }
 }
