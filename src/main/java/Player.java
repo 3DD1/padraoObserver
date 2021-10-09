@@ -3,8 +3,6 @@ import java.util.Observer;
 
 public class Player implements Observer {
     private String gamerTag;
-    private int lvl;
-    private int kill;
     private String friend;
 
     public Player(String gamerTag){
